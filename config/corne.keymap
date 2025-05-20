@@ -16,7 +16,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <300>;
             quick-tap-ms = <175>;
             flavor = "tap-preferred";
             hold-trigger-key-positions = <39 40 41 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38>;
@@ -29,7 +29,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <300>;
             quick-tap-ms = <175>;
             flavor = "tap-preferred";
             hold-trigger-key-positions = <37 38 36 6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 39 40 41>;
@@ -48,10 +48,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESCAPE  &kp Q            &kp W             &kp E                &kp R              &kp T        &kp Y      &kp U               &kp I             &kp O               &kp P                &kp BSPC
-&kp TAB     &HML LEFT_GUI A  &HML RIGHT_ALT S  &HML LEFT_CONTROL D  &HML LEFT_SHIFT F  &kp G        &kp H      &kp J               &kp K             &kp L               &kp SEMI             &kp SQT
-&kp DEL     &kp Z            &kp X             &kp C                &kp V              &kp B        &kp N      &HMR RIGHT_SHIFT M  &HMR RCTRL COMMA  &HMR RIGHT_ALT DOT  &HMR RIGHT_GUI FSLH  &kp CLCK
-                                               &mo 2                &mo 1              &kp ENTER    &kp SPACE  &mo 3               &kp RIGHT_GUI
+&kp ESCAPE  &kp Q         &kp W         &kp E         &kp R              &kp T        &kp Y      &kp U               &kp I             &kp O               &kp P                &kp BSPC
+&kp TAB     &kp A         &kp S         &kp D         &kp F              &kp G        &kp H      &kp J               &kp K             &kp L               &kp SEMI             &kp SQT
+&kp DEL     &HML LG(Z) Z  &HML LA(B) X  &HML LCTRL C  &HML LEFT_SHIFT V  &kp B        &kp N      &HMR RIGHT_SHIFT M  &HMR RCTRL COMMA  &HMR RIGHT_ALT DOT  &HMR RIGHT_GUI FSLH  &kp CLCK
+                                        &mo 2         &mo 1              &kp ENTER    &kp SPACE  &mo 3               &kp RIGHT_GUI
             >;
         };
 
