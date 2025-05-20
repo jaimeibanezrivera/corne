@@ -51,7 +51,7 @@
 &kp ESCAPE  &kp Q            &kp W             &kp E                &kp R              &kp T        &kp Y      &kp U               &kp I             &kp O               &kp P                &kp BSPC
 &kp TAB     &HML LEFT_GUI A  &HML RIGHT_ALT S  &HML LEFT_CONTROL D  &HML LEFT_SHIFT F  &kp G        &kp H      &kp J               &kp K             &kp L               &kp SEMI             &kp SQT
 &kp DEL     &kp Z            &kp X             &kp C                &kp V              &kp B        &kp N      &HMR RIGHT_SHIFT M  &HMR RCTRL COMMA  &HMR RIGHT_ALT DOT  &HMR RIGHT_GUI FSLH  &kp CLCK
-                                               &mo 2                &mo 1              &kp ENTER    &kp SPACE  &kp UNDER           &kp RIGHT_GUI
+                                               &mo 2                &mo 1              &kp ENTER    &kp SPACE  &mo 3               &kp RIGHT_GUI
             >;
         };
 
@@ -82,6 +82,15 @@
 &kp F12     &trans        &kp K_PLAY_PAUSE  &kp C_MUTE  &kp LG(C_VOL_DN)  &kp C_VOLUME_UP    &kp LEFT_ARROW  &kp DOWN_ARROW     &kp UP_ARROW     &kp RIGHT  &none    &kp PAGE_DOWN
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1      &none       &none             &none              &kp UNDER       &kp K_SCROLL_DOWN  &kp K_SCROLL_UP  &trans     &trans   &trans
                                             &kp LGUI    &trans            &kp SPACE          &kp RET         &trans             &kp RALT
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans        &trans        &trans     &trans          &trans    &trans          &trans    &trans        &trans     &trans  &trans
+&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans    &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans  &trans
+&trans  &trans        &trans        &trans     &trans          &trans    &trans          &trans    &trans        &trans     &trans  &trans
+                                    &trans     &trans          &trans    &trans          &trans    &trans
             >;
         };
     };
