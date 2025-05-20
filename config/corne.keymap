@@ -87,10 +87,10 @@
 
         layer_3 {
             bindings = <
-&trans  &trans         &trans        &trans     &trans          &trans    &trans          &trans    &trans        &trans     &trans  &trans
-&trans  &kp LEFT_GUI   &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans    &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans  &trans
-&trans  &kp RIGHT_GUI  &kp RALT      &kp LCTRL  &kp LEFT_SHIFT  &trans    &trans          &trans    &trans        &trans     &trans  &trans
-                                     &trans     &trans          &trans    &trans          &trans    &trans
+&trans        &trans            &trans        &trans     &trans          &trans    &trans          &trans    &trans        &trans     &trans  &trans
+&trans        &kp LEFT_GUI      &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans    &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans  &trans
+&kp LEFT_GUI  &kp LEFT_CONTROL  &kp RALT      &kp LCTRL  &kp LEFT_SHIFT  &trans    &trans          &trans    &trans        &trans     &trans  &trans
+                                              &trans     &trans          &trans    &trans          &trans    &trans
             >;
         };
     };
